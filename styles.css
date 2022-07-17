@@ -1,0 +1,168 @@
+** {border: 1px solid orange;}
+
+#screen {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border: 10px solid rgb(83, 75, 75);
+    border-style: ridge;
+    width: 373px;
+    height: 60px;
+    padding: 5px;
+    background-color: rgb(163, 163, 163);
+    color: black;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-right: -1px;
+    margin-left: -1px;
+}
+
+.colorbar {
+    border-top: 3px solid rgba(123, 106, 10);
+    border-bottom: 3px solid rgba(123, 106, 10);
+    height: 20px;
+    width: 396px;
+    background-color: rgb(44, 56, 23);  
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5px;
+    margin-right: -5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    color: grey;
+}
+
+.textdiv {
+    border-top: 3px solid rgba(123, 106, 10);
+    border-bottom: 3px solid rgba(123, 106, 10);
+    border-style: double;
+    height: 7px;
+    width: 397px;
+    background-color: rgb(33, 46, 11);
+    margin-left: 0px;
+      
+}
+
+#calcbox {
+    border: 20px solid rgb(39, 39, 50); 
+    border-style: groove;
+    background-color: rgb(76, 97, 40);
+}
+
+button {    
+    border-color: rgb(123, 106, 10);
+    border-style: ridge;
+    border-width: 3px;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+#bodycont {    
+    margin: -2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#btndiv {
+    border: 2px solid rgba(113, 8, 8, 0.484);
+    width: 402px;    
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    margin-right: -5px;
+}
+
+#specBtns {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: flex-start;
+    margin-right: 90px;
+}
+
+#btn, #btn2, #btn3, #btn4, #btn5, #btn6, #btn7, #btn8, #btn9, #btn0, #btnEq, #btnClr, #btnSum, #btnSub, #btnMult, #btnDiv, #btnDec, #btnDel {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnlight, .btndark {
+    font-size: 20px;
+    margin: 15px;
+    padding: 10px;
+}
+
+#btnSum, #btnSub, #btnMult, #btnDiv {    
+    font-size: 21px;
+    font-weight: 750;
+    margin: 15px;
+    margin-left: 30px;    
+}
+
+.opcolslight {
+    background-color: beige;
+    color: blue;
+}
+
+.opcolsdark {
+    color: beige;
+    background-color: blue;
+}
+
+.btndark {
+    background-color: white;     
+    color: black;   
+}
+
+.btnlight {
+    background-color: black;
+    color: white;
+}
+
+#btnClr, #btnEq {
+    font-weight: 700;
+}
+
+#btnClr {
+    color: red;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#btnDec, #btnDel {
+    width: 40px;
+    height: 40px;
+    margin-right: 50px;
+    font-size: 15px;
+}
+
+#btnDec {
+    margin-left: 35px;
+}
+
+#btnDel {
+    margin-right: 55px;
+}
+
+
